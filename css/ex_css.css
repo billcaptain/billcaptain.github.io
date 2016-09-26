@@ -1,0 +1,20 @@
+.header{
+    background-color:#AACCBB;
+    text-align:center;
+}
+.web{
+    background-color:#ABC;
+    text-align:center;
+}
+.img1{
+    background-color:#ADD;
+}
+.img2{
+    background-color:#DDA;
+    border-radius:20px;
+}
+.bottom{
+    background-color:#CFB;
+    height:100;
+    text-align:center;
+}
