@@ -13,56 +13,95 @@
         img.bill {
             width: 300px;
         }
+        #carousel-example-generic img{
+            width:1280px;
+            height:auto;
+        }
     </style>
     <meta charset="UTF-8">
     <title>port</title>
 </head>
 
 <body>
-    <div class="container header">
-    <h1>Hello World!</h1> <br>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="bill2" src="./images/04.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="bill2" src="./images/05.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="bill2" src="./images/06.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="icon-prev" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="icon-next" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <!--a href="http://www.google.com" target="_blank">google</a--> 
-    <div class="container web">
-    <a class="btn btn-primary" href="http://www.google.com" target="_blank">google</a><br>
-    </div>
-    
+
     <div class="container">
-    <div class="row">
-        <div class="col-md-8 img1">
-    <img src="./images/01.jpg" width=25%> <br>
-     <table style="width=80%">
-        <tr>
-            <th>name</th>
-            <th>number</th>
-            <th>grade</th>
-        </tr>
-        <tr>
-            <td>Lu</td>
-            <td>S250</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Xie</td>
-            <td>S500</td>
-            <td>90</td>
-        </tr>
-    </table>
+        <div class="row row8">
+            <div class="col-md-8 img1">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="container a">
+                            <h1>魔獸世界:軍臨天下</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row rowrow">
+                    <div class="col-md-8">
+                        <p>「自由的代價是什麼？」這是安杜因·烏瑞恩在對遠古之敵宣戰、生命被隱藏的敵人威脅之際必須回答的問題。在《安杜因—鬼狼之子》一書中，安杜因的父親，烏瑞恩國王來信中提到艱難時刻的到來，將領導的重責大任無預期地壓在了這名年輕的領袖身上。安杜因必須面對他的恐懼，對是否可以同時保衛艾澤拉斯並堅持本身的信仰做出決定。
+                            <button
+                                onclick="myFunction();" class="btn btn-outline-secondary">more</button>
+                        </p>
+
+                    </div>
+                    <div class="col-md-4">
+
+                        <image class="b" src="./images/02.jpg">
+
+                    </div>
+                </div>
+                <div class="row rowrowrow">
+                    <div class="col-md-4">
+                        <image class="c" src="./images/03.jpg">
+                        <button onclick="myFunction();" class="btn btn-outline-secondary">more</button>
+                    </div>
+                    <div class="col-md-8">
+                        <p>戰鼓聲在德拉諾的獸人間響起，崇尚權力的術士古爾丹是最後一位擊鼓的獸人。他們深信只要依附燃燒軍團，身負惡魔能量的他就能帶領人民取得榮耀和力量。然而，一位身批連帽斗篷的神秘訪客前來拜訪古爾丹，並帶來截然不同的結局....
+                            這位神秘訪客走過格古隆德冒著蒸氣的山脈和納葛蘭的狩獵場，裡頭的恐怖戰爭機器即將震撼世界。他監看著獸人士兵們，為他們編織一個美夢：團結的部落陣營，既純粹、自由，又掌握優勢。他帶來一條信息給古爾丹。
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 img2">
+                <img class="bill" src="./images/01.jpg">
+            </div>
+        </div>
     </div>
-    <div class="col-md-4 img2">
-    
-    <img class="bill" src="./images/01.jpg" width=35%>
-    </div>
-    </div>
-    </div>
-   <div class="container bottom">
-    <h4>@billcaptain </h4><br>
+    <div class="container bottom">
+        <h4>@billcaptain </h4><br>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
         crossorigin="anonymous"></script>
     <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script-->
-    <script src="./js/bootstrap.js">
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/ex_js001.js"></script>
 </body>
+
 </html>
