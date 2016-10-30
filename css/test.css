@@ -1,0 +1,82 @@
+.fn-clear:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.fn-clear {
+    zoom: 1;
+}
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.com-playground ul,
+.com-actionpanel {
+    border: 8px solid #660099;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.com-actionpanel {
+    border: none;
+    padding: 10px;
+}
+
+.com-actionpanel dl {
+    width: 300px;
+    float: left;
+}
+
+.block li {
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+    float: left;
+    background: transparent;
+    display: block;
+}
+
+.block .snake {
+    background-color: #CC0099;
+}
+
+.block .food {
+    background-color: #99FF00;
+}
+
+.score {
+    font-size: 18px;
+    color: #f00;
+    font-weight: bold;
+}
+
+.site-info {
+    border-top: 1px solid #ededed;
+    padding: 24px 0;
+    margin-top: 30px;
+    text-align: center;
+    color: #686868;
+    font-size: 12px;
+}
+
+.site-info a {
+    color: #686868;
+}
+
+.games2 {
+    width: 600px;
+    height: 300px;
+}
