@@ -37,7 +37,7 @@
                 if (this.piece === null) {
                     this.piece = document.createElement('div');
                     this.piece.style.width = this.piece.style.height = len + 'px';
-                    this.piece.style.background = 'green';
+                    this.piece.style.background = 'black';
                     this.piece.style.position = 'absolute';
                     document.body.appendChild(this.piece);
                 }
@@ -60,7 +60,7 @@
                 [0, 1, 'green', null],
                 [1, 1, 'green', null],
                 [2, 1, 'green', null],
-                [3, 1, 'red', null]
+                [3, 1, 'green', null]
             ];
             this.redirect = 'right';
             this.showSnake = function() {
