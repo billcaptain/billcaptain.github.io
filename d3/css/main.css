@@ -1,0 +1,121 @@
+    .header {
+        padding-bottom: 20px;
+        margin-bottom: 32px;
+        border-bottom: 1px solid #eee;
+    }
+    /*div.header > div.container {
+    background-color: #D3ECF5;
+    height: 200px;
+}*/
+    /*.main {
+    background-color: #F0F0F0;
+}*/
+    
+    .sidebar {
+        background-color: #DBF5D3;
+    }
+    
+    .sidebar-module {
+        padding: 16px;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+    }
+    
+    .footer {
+        padding: 40px 0;
+        color: #999;
+        text-align: center;
+        background-color: #f9f9f9;
+        border-top: 1px solid #e5e5e5;
+    }
+    
+    h1.title {
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .row_item {
+        margin-bottom: 30px;
+        border-bottom: 1px solid #F0F0F0;
+        padding-bottom: 25px;
+    }
+    
+    .panel {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    
+    .navbar-header {
+        margin-bottom: 50px;
+    }
+    
+    .output {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    center {
+        text-align: center;
+    }
+    
+    .output1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .output2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .output3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .title1 {
+        background-color: #A4A4A4
+    }
+    
+    .footer1 {
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+    
+    .header2 {
+        text-align: center;
+    }
+    
+    .botton1 {
+        background-color: white;
+    }
+    
+    .picture1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .panel {
+        height: 100px;
+        width: 130px;
+    }
+    
+    .text1 {
+        text-align: center;
+    }
+    
+    .image33 {
+        height: 300px;
+        width: 400px;
+    }
+    
+    .image34 {
+        height: 300px;
+        width: 400px;
+    }
+    
+    .background1 {
+        background-color: black;
+    }
